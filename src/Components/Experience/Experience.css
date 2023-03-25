@@ -1,0 +1,70 @@
+.expContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.expContainer>div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.expContainer>div:hover {
+    background: transparent;
+    border-color: var(--color-primary--variant);
+    cursor: default;
+}
+
+.expContainer>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.expContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.expDetails{
+    display: flex;
+    gap: 1rem;
+}
+
+.expDetailsIcon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/************************** Media Queries *******************************/
+/* for meadium devices */
+
+@media screen and (max-width: 1024px) {
+    .expContainer{
+        grid-template-columns: 1fr;
+    }
+    .expContainer > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .expContent{
+        padding: 1rem;
+    }
+}
+
+/* for small devices */
+
+@media screen and (max-width: 600px) {
+    .expContainer{
+        gap: 1rem;
+    }
+    .expContainer > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

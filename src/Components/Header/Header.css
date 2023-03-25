@@ -1,0 +1,88 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CV */
+
+.cv{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/********************* headerSocials ***********************/
+
+.headerSocials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-auto-flow: 0.8rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+}
+
+.headerSocials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/********************* Image ***********************/
+.profile {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/********************* Scroll down ***********************/
+.scrollDown{
+    position: absolute;
+    right: -2.5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/************************** Media Queries *******************************/
+/* for meadium devices */
+
+@media screen and (max-width: 1024px) {
+    .header{
+        /* width: var(--container-width-md); */
+        height: 68vh;
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* for small devices */
+
+@media screen and (max-width: 600px) {
+    .header{
+        /* width: var(--container-width-sm); */
+        height: 100vh;
+    }
+    .headerSocials, .scrollDown{
+        display: none;
+    }
+}
