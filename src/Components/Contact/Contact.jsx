@@ -8,7 +8,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_203kpg9', 'template_58lgl8u', form.current, 'tyccmOmAM_Ay4UNah')
+    emailjs.sendForm('service_203kpg9', 'template_ety3eah', form.current, 'tyccmOmAM_Ay4UNah')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -28,20 +28,19 @@ const Contact = () => {
             {/* Email */}
             <AiOutlineMail className='icon' />
             <h4>Email</h4>
-            <h5>rishabh.kumar2304@gmail.com</h5>
             <a href='mailto:rishabh.kumar10101@icloud.com' rel="noreferrer" target="_blank">Send a message</a>
           </article>
           {/* messenger */}
           <article className='contactOption'>
             <AiOutlineMessage className='icon' />
-            <h4>messenger</h4>
+            <h4>Messenger</h4>
             <h5>Rishabh Kumar</h5>
             <a href='https://m.me/home.php' rel="noreferrer" target="_blank">Send a message</a>
           </article>
           {/* what's app */}
           <article className='contactOption'>
             <AiOutlineWhatsApp className='icon' />
-            <h4>what's app</h4>
+            <h4>WhatsApp</h4>
             <h5>+91 9875704712</h5>
             <a href='https://wa.me/+919875704712' rel="noreferrer" target="_blank">Send a message</a>
           </article>

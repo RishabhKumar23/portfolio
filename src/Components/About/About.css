@@ -21,14 +21,14 @@
 
 .aboutImg {
     border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(0deg);
-    transition: var(--transition);
+    /* overflow: hidden; */
+    /* transform: rotate(0deg); */
+    /* transition: var(--transition); */
 }
 
-.aboutImg:hover{
+/* .aboutImg:hover{
     transform: rotate(360deg);
-}
+} */
 
 .aboutCards{
     display: grid;

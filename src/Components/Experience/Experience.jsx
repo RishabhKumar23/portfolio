@@ -53,63 +53,91 @@ const Experience = () => {
                 <small className='expText'>Experience</small>
               </div>
             </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>Next.js</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
           </div>
         </div>
         {/************************ BackEnd *****************************/}
         <div className='containerBackEnd'>
           <h3>Backend Development</h3>
           <div className='expContent'>
-            <div className='expContent'>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>Node.js</h4>
-                  <small className='expText'>Experience</small>
-                </div>
-              </article>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>MongoDB</h4>
-                  <small className='expText'>Experience</small>
-                </div>
-              </article>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>PHP</h4>
-                  <small className='expText'>Intermediate</small>
-                </div>
-              </article>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>MySql</h4>
-                  <small className='expText'>Intermediate</small>
-                </div>
-              </article>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>python</h4>
-                  <small className='expText'>Experience</small>
-                </div>
-              </article>
-              <article className='expDetails'>
-                <HiBadgeCheck className='expDetailsIcon' />
-                <div>
-                  <h4>MsSql</h4>
-                  <small className='expText'>Experience</small>
-                </div>
-              </article>
-            </div>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>Node.js</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>MongoDB</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>PHP</h4>
+                <small className='expText'>Intermediate</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>MySQL</h4>
+                <small className='expText'>Intermediate</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>MSSQL</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/************************* Core Skills ****************************/}
+        <div className='containerBackEnd'>
+            <h3>Core Skills</h3>
+          <div className='expContent'>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>python</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>C++</h4>
+                <small className='expText'>Intermediate</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>DSA</h4>
+                <small className='expText'>Intermediate</small>
+              </div>
+            </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>Web3</h4>
+                <small className='expText'>Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
-      {/* Other Skills */}
-      {/* <div className='Other Skills'>
-        <h1>C++</h1>
-      </div> */}
     </section>
   )
 }
