@@ -10,16 +10,16 @@ const Portfolio = () => {
 
       <div className="container">
         <div className='aboutCards'>
-          <a href="https://github.com/RishabhKumar23/Twitter" rel="noreferrer" target="_blank">
+          <a href="https://github.com/RishabhKumar23/twitter-clone" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
               <h5>Twitter</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/myNote" rel="noreferrer" target="_blank">
+          <a href="https://github.com/RishabhKumar23/Facebook-Clone" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>My-Note</h5>
+              <h5>Face-Book</h5>
             </article>
           </a>
           <a href="https://github.com/RishabhKumar23/blog-Website" rel="noreferrer" target="_blank">
@@ -34,10 +34,10 @@ const Portfolio = () => {
               <h5>Silence</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/To-Do-List" rel="noreferrer" target="_blank">
+          <a href="https://github.com/RishabhKumar23/chatXbox" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>To-Do List</h5>
+              <h5>Chat-Gpt Clone</h5>
               <p></p>
             </article>
           </a>

@@ -16,11 +16,11 @@ const About = () => {
         </div>
         <div className='aboutContent'>
           <p>
-          I have a solid technical background in web development, having worked with HTML, CSS, JavaScript, express, node.js, and frameworks such as react.js and next.js. 
-          I have successfully finished a number of assignments and have strong problem-solving abilities. 
-          I am dedicated to lifelong learning and keeping up with industry changes. 
-          I am enthusiastic about web development and take great delight in producing high-quality results.
-          I am dependable and have a great work ethic.
+          Greetings! I'm an aspiring web developer with a zest for crafting digital experiences that blend creativity and functionality seamlessly. Proficient in HTML, CSS, and JavaScript, I'm also well-versed in cutting-edge technologies like React.js, Next.js, and TailwindCSS. My programming toolkit includes Python and C++, enhancing my problem-solving prowess.
+
+I'm not only at home with databases like MSSQL Server, MongoDB, and MySQL, but I'm also skilled in Bootstrap, Node.js, and Web3, infusing innovation into my projects. My adaptability extends to Computer Vision, giving me a unique perspective.
+
+Beyond code, I bring leadership and teamwork to the table, ensuring projects thrive in a collaborative environment. With my portfolio as a testament, let's explore the world of web development together!
         </p>
         <a href='#contact' className='btn btn-primary'>Get in Touch!</a>
         </div>

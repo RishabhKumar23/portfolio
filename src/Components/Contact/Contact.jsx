@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import "./Contact.css";
-import { AiOutlineMail, AiOutlineMessage, AiOutlineWhatsApp } from "react-icons/ai"
+import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai"
+import {AiFillLinkedin} from 'react-icons/ai'
 import emailjs from 'emailjs-com';
 const Contact = () => {
   // for mail
@@ -8,7 +9,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_203kpg9', 'template_ety3eah', form.current, 'tyccmOmAM_Ay4UNah')
+    emailjs.sendForm('service_203kpg9', 'template_fgtxz7k', form.current, 'Vhqnvn8bHh6TyYTNt')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -32,10 +33,10 @@ const Contact = () => {
           </article>
           {/* messenger */}
           <article className='contactOption'>
-            <AiOutlineMessage className='icon' />
-            <h4>Messenger</h4>
+            <AiFillLinkedin className='icon' />
+            <h4>linkedin</h4>
             <h5>Rishabh Kumar</h5>
-            <a href='https://m.me/home.php' rel="noreferrer" target="_blank">Send a message</a>
+            <a href='www.linkedin.com/in/rishabh-kumar-7b0043217' rel="noreferrer" target="_blank">Send a message</a>
           </article>
           {/* what's app */}
           <article className='contactOption'>

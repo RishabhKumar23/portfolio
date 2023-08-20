@@ -22,7 +22,7 @@ const Experience = () => {
               <HiBadgeCheck className='expDetailsIcon' />
               <div>
                 <h4>CSS</h4>
-                <small className='expText'>Intermediate</small>
+                <small className='expText'>Experience</small>
               </div>
             </article>
             <article className='expDetails'>
@@ -60,6 +60,13 @@ const Experience = () => {
                 <small className='expText'>Experience</small>
               </div>
             </article>
+            <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div>
+                <h4>TailwindCSS</h4>
+                <small className='expText'>Experience</small>
+              </div>
+            </article>
           </div>
         </div>
         {/************************ BackEnd *****************************/}
@@ -91,7 +98,7 @@ const Experience = () => {
               <HiBadgeCheck className='expDetailsIcon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='expText'>Intermediate</small>
+                <small className='expText'>Experience</small>
               </div>
             </article>
             <article className='expDetails'>
@@ -135,6 +142,12 @@ const Experience = () => {
                 <small className='expText'>Intermediate</small>
               </div>
             </article>
+            {/* <article className='expDetails'>
+              <HiBadgeCheck className='expDetailsIcon' />
+              <div style={{cursor: 'pointer'}}>
+                <h4><a href=''>Certificate</a></h4>
+              </div>
+            </article> */}
           </div>
         </div>
       </div>
