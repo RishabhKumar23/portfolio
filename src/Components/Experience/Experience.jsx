@@ -9,7 +9,7 @@ const Experience = () => {
       <div className='container expContainer'>
         {/************************ FontEnd *****************************/}
         <div className='containerFontEnd'>
-          <h3>Fontend Development</h3>
+          <h3>Frontend Development</h3>
           <div className='expContent'>
             <article className='expDetails'>
               <HiBadgeCheck className='expDetailsIcon' />
