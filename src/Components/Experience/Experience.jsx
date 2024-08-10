@@ -9,6 +9,35 @@ const Experience = () => {
       <h5>Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container expContainer">
+        {/************************* Bussiness ****************************/}
+        <div className="containerBackEnd">
+          <h3>Business</h3>
+          <div className="expContent">
+            <div>
+              <a
+                href="https://www.aimandi.in/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <article className="expDetails">
+                  <h5>AIMandi</h5>
+                </article>
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://itch.io/dashboard"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <article className="expDetails">
+                  <h5>Nerdy Gamer Studio</h5>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
         {/************************ FontEnd *****************************/}
         <div className="containerFontEnd">
           <h3>Frontend Development</h3>
@@ -144,35 +173,6 @@ const Experience = () => {
                 <small className="expText">Intermediate</small>
               </div>
             </article>
-          </div>
-        </div>
-        {/************************* Bussiness ****************************/}
-        <div className="containerBackEnd">
-          <h3>Business</h3>
-          <div className="expContent">
-            <div>
-              <a
-                href="https://www.aimandi.in/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <article className="expDetails">
-                  <h5>AIMandi</h5>
-                </article>
-              </a>
-            </div>
-            
-            <div>
-              <a
-                href="https://itch.io/dashboard"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <article className="expDetails">
-                  <h5>Nerdy Gamer Studio</h5>
-                </article>
-              </a>
-            </div>
           </div>
         </div>
       </div>
