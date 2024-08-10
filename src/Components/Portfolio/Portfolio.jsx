@@ -10,16 +10,16 @@ const Portfolio = () => {
 
       <div className="container">
         <div className='aboutCards'>
-          <a href="https://github.com/RishabhKumar23/twitter-clone" rel="noreferrer" target="_blank">
+          <a href="https://github.com/RishabhKumar23/Python-projects" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Twitter</h5>
+              <h5>Python-projects</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/Facebook-Clone" rel="noreferrer" target="_blank">
+          <a href="https://github.com/RishabhKumar23/snack-game" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Face-Book</h5>
+              <h5>Snack Game - java</h5>
             </article>
           </a>
           <a href="https://github.com/RishabhKumar23/blog-Website" rel="noreferrer" target="_blank">

@@ -36,7 +36,7 @@ const Contact = () => {
             <AiFillLinkedin className='icon' />
             <h4>linkedin</h4>
             <h5>Rishabh Kumar</h5>
-            <a href='www.linkedin.com/in/rishabh-kumar-7b0043217' rel="noreferrer" target="_blank">Send a message</a>
+            <a href='https://www.linkedin.com/in/rishabh-kumar-7b0043217/' rel="noreferrer" target="_blank">Send a message</a>
           </article>
           {/* what's app */}
           <article className='contactOption'>

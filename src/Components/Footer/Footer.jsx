@@ -5,7 +5,7 @@ import {AiFillLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer>
-      <a href='#home' className='footerLogo'>Rishabh Kumar</a>
+      <a href='#' className='footerLogo'>Rishabh Kumar</a>
 
       <ul className='links'>
         <li><a href='#'>Home</a></li>
