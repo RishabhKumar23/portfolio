@@ -24,7 +24,6 @@ const Experience = () => {
                 </article>
               </a>
             </div>
-
             <div>
               <a
                 href="https://itch.io/dashboard"
