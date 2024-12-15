@@ -1,10 +1,10 @@
-header{
+header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header_container{
+.header_container {
     text-align: center;
     height: 100%;
     position: relative;
@@ -12,7 +12,7 @@ header{
 
 /* CV */
 
-.cv{
+.cv {
     margin-top: 2.5rem;
     display: flex;
     gap: 1rem;
@@ -21,7 +21,7 @@ header{
 
 /********************* headerSocials ***********************/
 
-.headerSocials{
+.headerSocials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@ header{
     bottom: 3rem;
 }
 
-.headerSocials::after{
+.headerSocials::after {
     content: '';
     width: 1px;
     height: 2rem;
@@ -53,7 +53,7 @@ header{
 }
 
 /********************* Scroll down ***********************/
-.scrollDown{
+.scrollDown {
     position: absolute;
     right: -2.5rem;
     bottom: 5rem;
@@ -66,10 +66,11 @@ header{
 /* for meadium devices */
 
 @media screen and (max-width: 1024px) {
-    .header{
+    .header {
         /* width: var(--container-width-md); */
         height: 68vh;
     }
+
     section {
         margin-top: 6rem;
     }
@@ -78,11 +79,13 @@ header{
 /* for small devices */
 
 @media screen and (max-width: 600px) {
-    .header{
+    .header {
         /* width: var(--container-width-sm); */
         height: 100vh;
     }
-    .headerSocials, .scrollDown{
+
+    .headerSocials,
+    .scrollDown {
         display: none;
     }
 }

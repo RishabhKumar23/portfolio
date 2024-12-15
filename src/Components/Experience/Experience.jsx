@@ -11,8 +11,20 @@ const Experience = () => {
       <div className="container expContainer">
         {/************************* Bussiness ****************************/}
         <div className="containerBackEnd">
-          <h3>Business</h3>
+          <h3>Check it out</h3>
           <div className="expContent">
+            <div className="containerFontEnd">
+              <a
+                href="https://inveniox.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <article className="expDetails">
+                  <HiBadgeCheck className="expDetailsIcon" />
+                  <h4>inveniox</h4>
+                </article>
+              </a>
+            </div>
             <div>
               <a
                 href="https://www.aimandi.in/"
@@ -20,7 +32,8 @@ const Experience = () => {
                 target="_blank"
               >
                 <article className="expDetails">
-                  <h5>AIMandi</h5>
+                  <HiBadgeCheck className="expDetailsIcon" />
+                  <h4>AIMandi</h4>
                 </article>
               </a>
             </div>
@@ -31,7 +44,8 @@ const Experience = () => {
                 target="_blank"
               >
                 <article className="expDetails">
-                  <h5>Nerdy Gamer Studio</h5>
+                  <HiBadgeCheck className="expDetailsIcon" />
+                  <h4>Nerdy Gamer Studio</h4>
                 </article>
               </a>
             </div>
@@ -165,13 +179,13 @@ const Experience = () => {
                 <small className="expText">Intermediate</small>
               </div>
             </article>
-            <article className="expDetails">
+            {/* <article className="expDetails">
               <HiBadgeCheck className="expDetailsIcon" />
               <div>
                 <h4>Web3</h4>
                 <small className="expText">Intermediate</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
