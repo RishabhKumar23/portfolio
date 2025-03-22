@@ -15,6 +15,18 @@ const Experience = () => {
           <div className="expContent">
             <div className="containerFontEnd">
               <a
+                href="https://genx1.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <article className="expDetails">
+                  <HiBadgeCheck className="expDetailsIcon" />
+                  <h4>GenX1</h4>
+                </article>
+              </a>
+            </div>
+            <div className="containerFontEnd">
+              <a
                 href="https://inveniox.vercel.app/"
                 rel="noreferrer"
                 target="_blank"
