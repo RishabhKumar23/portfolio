@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { HiBadgeCheck } from "react-icons/hi";
-import { SiCodeproject } from "react-icons/si";
+// import { SiCodeproject } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -180,7 +180,7 @@ const Experience = () => {
             <article className="expDetails">
               <HiBadgeCheck className="expDetailsIcon" />
               <div>
-                <h4>C++</h4>
+                <h4>JAVA</h4>
                 <small className="expText">Intermediate</small>
               </div>
             </article>

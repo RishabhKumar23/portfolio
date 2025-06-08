@@ -5,49 +5,49 @@ import { SiCodeproject } from 'react-icons/si'
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>my reacent work</h5>
-      <h2>portfolio</h2>
+      <h5>Career</h5>
+      <h2>Achievements</h2>
 
       <div className="container">
         <div className='aboutCards'>
-          <a href="https://github.com/RishabhKumar23/Python-projects" rel="noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/posts/jayahar-sivasubramanian-4a88142b_ruasabraerospaceabrengineering-activity-7247582000830652416-uF-C?utm_source=share&utm_medium=member_desktop&rcm=ACoAADalDLQBNlnDGnRFo2Of_yLEZ5NcG983fjI" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Python-projects</h5>
+              <h5>National Winner</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/snack-game" rel="noreferrer" target="_blank">
+          <a href="https://ieeexplore.ieee.org/document/10677297" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Snack Game - java</h5>
+              <h5>IEEE-Paper</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/blog-Website" rel="noreferrer" target="_blank">
+          <a href="https://www.hackerrank.com/profile/rishabh_kumar101" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Blog-Website</h5>
+              <h5>Hacker Rank</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/silence" rel="noreferrer" target="_blank">
+          <a href="https://www.naukri.com/code360/profile/RishKumar" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
-              <h5>Silence</h5>
+              <h5>Coding Ninja</h5>
             </article>
           </a>
-          <a href="https://github.com/RishabhKumar23/chatXbox" rel="noreferrer" target="_blank">
+          {/* <a href="https://github.com/RishabhKumar23/chatXbox" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
               <h5>Chat-Gpt Clone</h5>
               <p></p>
             </article>
-          </a>
-          <a href="https://github.com/RishabhKumar23/web3" rel="noreferrer" target="_blank">
+          </a> */}
+          {/* <a href="https://github.com/RishabhKumar23/web3" rel="noreferrer" target="_blank">
             <article className='aboutCard'>
               <SiCodeproject className='aboutIcon' />
               <h5>krypt</h5>
               <p></p>
             </article>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

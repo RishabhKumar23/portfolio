@@ -93,7 +93,7 @@ const Contact = () => {
                     <AiOutlineWhatsApp className="icon" />
 
                     <h4>WhatsApp</h4>
-                    <h5>+91 9875704712</h5>
+                    {/* <h5>+91 9875704712</h5> */}
                     <a
                       href="https://wa.me/+919875704712"
                       rel="noreferrer"
